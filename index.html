@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="/css/main.min.css">
 </head>
@@ -13,32 +16,32 @@
     <img class="hero-image" src="./images/photo.jpg" alt="my-photo">
     <address class="contacts">
       <h2 class="contacts__title">Contacts</h2>
-      <a class="contacts__link" href="#"><span class="contacts__link-text">C:</span>+380667850144</a>
-      <a class="contacts__link" href="#"><span class="contacts__link-text">E:</span>amoshyiivan@gmail.com</a>
+      <a class="contacts__link" href="#"><span class="text-span">C:</span>+380667850144</a>
+      <a class="contacts__link" href="#"><span class="text-span">E:</span>amoshyiivan@gmail.com</a>
     </address>
-    <ul>
-      <h2>Tech Skills</h2>
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>GIT</li>
-      <li>WebPack</li>
-      <li>JavaScript</li>
-      <li>React.js</li>
-      <li>Node.js</li>
+    <ul class="skills-list list">
+      <h2 class="skills-list__title">Tech Skills</h2>
+      <li class="skills-list__item">HTML5</li>
+      <li class="skills-list__item">CSS3</li>
+      <li class="skills-list__item">GIT</li>
+      <li class="skills-list__item">WebPack</li>
+      <li class="skills-list__item">JavaScript</li>
+      <li class="skills-list__item">React.js</li>
+      <li class="skills-list__item">Node.js</li>
     </ul>
-    <ul>
-      <h2>Soft Skills</h2>
-      <li>Scrum</li>
-      <li>Agile</li>
-      <li>GTD</li>
-      <li>Teamwork</li>
+    <ul class="skills-list list">
+      <h2 class="skills-list__title">Soft Skills</h2>
+      <li class="skills-list__item">Scrum</li>
+      <li class="skills-list__item">Agile</li>
+      <li class="skills-list__item">GTD</li>
+      <li class="skills-list__item">Teamwork</li>
     </ul>
   </header>
   <section class="main-container">
-      <section>
-      <p>Front-End Developer</p>
-      <h1>Anton Chornyi</h1>
-      <p>
+    <section class="hero">
+      <p class="hero__subtitle">Front-End Developer</p>
+      <h1 class="hero__title">Anton Chornyi</h1>
+      <p class="hero__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
       </p>
     </section>
@@ -50,8 +53,37 @@
         <li><a href=""></a></li>
       </ul>
     </section>
-    <section></section>
-    <section></section>
+    <section class="experience">
+      <h2 class="experience__title">Work Experience</h2>
+      <h3 class="experience__subtitle">Front-End Developer <span>Freelance</span></h3>
+      <p class="experience__period">September 2019 - up to now   |   Country</p>
+      <ul class="experience__list">
+        <li class="experience__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+        <li class="experience__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li class="experience__item">Risus commodo viverra maecenas. </li>
+        <li class="experience__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+      </ul>
+      <h3 class="experience__subtitle">Manager <span>Roga & Kopyta New</span></h3>
+      <p class="experience__period">March 2015 - October 2018   |   Country</p>
+      <ul class="experience__list">
+        <li class="experience__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li class="experience__item">Quis ipsum suspendisse ultrices gravida.</li>
+        <li class="experience__item">Risus commodo viverra maecenas. </li>
+      </ul>
+      <h3 class="experience__subtitle">Manager <span>Roga & Kopyta LLC</span></h3>
+      <p class="experience__period">June 2014 - February 2015   |   Country</p>
+      <ul class="experience__list">
+        <li class="experience__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li class="experience__item">Quis ipsum suspendisse ultrices gravida.</li>
+        <li class="experience__item">Risus commodo viverra maecenas.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <p>National University of Radioelectronics</p>
+      <p>Management</p>
+      <p>September 2009 - June 2014   |   Country</p>
+    </section>
   </section>
 </body>
 </html>
