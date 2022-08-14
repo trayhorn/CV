@@ -1,9 +1,11 @@
 .experience {
-
-  &__title {
+  &__subtitle {
     font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 20px;
     color: $titleTextColor;
+  }
+  &__subtitle span {
+    color: $accentColor;
   }
 }

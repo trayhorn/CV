@@ -19,3 +19,12 @@ body {
 .main-container {
   margin-left: 498px;
 }
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: $titleTextColor;
+}
