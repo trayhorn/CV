@@ -21,11 +21,20 @@ body {
 
 .section-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
   color: #000000;
+}
+
+.work-period {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A8A8A8;
 }
 
 header {
@@ -59,15 +68,25 @@ header {
   font-size: 14px;
   line-height: 24px;
   text-decoration: none;
-  display: block;
   color: #FFFFFF;
   opacity: 0.5;
 }
-.contacts__link:last-child {
-  text-decoration: underline;
+
+.text-span {
+  margin-right: 13px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
 }
-.contacts__-text {
-  opacity: 1;
+
+.skills-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  margin-left: 40px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
 }
 
 .skills-list {
@@ -77,13 +96,6 @@ header {
 .skills-list:last-child {
   margin-bottom: 0;
 }
-.skills-list__title {
-  margin-top: 0;
-  margin-bottom: 8px;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
-}
 .skills-list__item {
   font-weight: 400;
   font-size: 14px;
@@ -92,16 +104,13 @@ header {
 .skills-list__item::marker {
   color: #FB6D3A;
 }
-
-.text-span {
-  margin-right: 12px;
-  font-weight: 700;
-  opacity: 1;
-  text-decoration: none;
+.skills-list__item:hover {
+  color: #FB6D3A;
 }
 
 .hero {
   padding-top: 110px;
+  padding-bottom: 40px;
 }
 .hero__subtitle {
   margin-top: 0;
@@ -129,7 +138,34 @@ header {
   color: #595959;
 }
 
+.project {
+  padding-bottom: 51px;
+}
+.project__list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.project__link {
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #595959;
+}
+
+.experience {
+  padding-bottom: 23px;
+}
+.experience__container {
+  margin-bottom: 20px;
+}
+.experience__container:last-child {
+  margin-bottom: 0;
+}
 .experience__subtitle {
+  margin-top: 0;
+  margin-bottom: 11px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -138,4 +174,30 @@ header {
 .experience__subtitle span {
   color: #FB6D3A;
 }
-  /*# sourceMappingURL=main.css.map */
+.experience__list {
+  margin-top: 8px;
+}
+.experience__item {
+  width: 509px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.education__title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FB6D3A;
+}
+.education__subtitle {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}/*# sourceMappingURL=main.css.map */
