@@ -7,6 +7,29 @@ header {
   color: $headerMainColor;
 }
 
+.skills {
+    margin-left: 40px;
+    margin-bottom: 44px;
+    overflow: hidden;
+
+  &:hover .skills-title {
+    transform: translateX(-209px);
+  }
+  &:hover .second {
+    opacity: 1;
+  }
+}
+
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second {
+  opacity: 0;
+}
+
 .hero-image {
   margin-top: 40px;
 }
@@ -50,17 +73,15 @@ header {
 .skills-title {
   margin-top: 0;
   margin-bottom: 8px;
-  margin-left: 40px;
 
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
+
+  transition: transform 320ms linear;
 }
 
 .skills-list {
-  margin-left: 40px;
-  margin-bottom: 44px;
-
   &:last-child {
     margin-bottom: 0;
   }
@@ -69,11 +90,13 @@ header {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    transition: transform 350ms linear;
   }
   &__item::marker {
     color: $accentColor;
   }
   &__item:hover {
+    transform: translateX(30px);
     color: $accentColor;
   }
 }
