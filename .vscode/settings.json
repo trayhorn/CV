@@ -40,5 +40,6 @@
     "titleBar.inactiveForeground": "#e7e7e799",
     "commandCenter.border": "#e7e7e799"
   },
-  "peacock.color": "#616108"
+  "peacock.color": "#616108",
+  "liveServer.settings.port": 7701
 }
