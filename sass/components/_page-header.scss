@@ -11,13 +11,6 @@ header {
     margin-left: 40px;
     margin-bottom: 44px;
     overflow: hidden;
-
-  &:hover .skills-title {
-    transform: translateX(-209px);
-  }
-  &:hover .second {
-    opacity: 1;
-  }
 }
 
 
@@ -77,8 +70,6 @@ header {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-
-  transition: transform 320ms linear;
 }
 
 .skills-list {

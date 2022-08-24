@@ -55,13 +55,6 @@ header {
   margin-bottom: 44px;
   overflow: hidden;
 }
-.skills:hover .skills-title {
-  -webkit-transform: translateX(-209px);
-          transform: translateX(-209px);
-}
-.skills:hover .second {
-  opacity: 1;
-}
 
 .title-container {
   display: -webkit-box;
@@ -117,10 +110,6 @@ header {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  -webkit-transition: -webkit-transform 320ms linear;
-  transition: -webkit-transform 320ms linear;
-  transition: transform 320ms linear;
-  transition: transform 320ms linear, -webkit-transform 320ms linear;
 }
 
 .skills-list:last-child {
